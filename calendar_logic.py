@@ -22,7 +22,7 @@ class Event:
         return [self.title, self.start_time, self.end_time]
 
 class Calendar:
-    def __init__(self, data_file='/Users/pregadalasvitha/Desktop/Calendar Application/Calendar StreamLit Code/calendar_data.xlsx'):
+    def __init__(self, data_file='calendar_data.xlsx'):
         self.events = []
         self.data_file = data_file
         self.sheet_name = 'Events'
